@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
+package conexao;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;

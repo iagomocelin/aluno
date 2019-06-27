@@ -10,12 +10,40 @@ package aluno;
  * @author Administrador
  */
 public class Aluno {
+    private int codigo;
+    private String nome;
+    private String endereco;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno{" + "codigo=" + codigo + ", nome=" + nome + ", endereco=" + endereco + '}';
     }
     
+    
 }
+   
+  
